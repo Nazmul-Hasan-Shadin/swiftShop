@@ -19,7 +19,7 @@ const VerificationForm = () => {
           </span>
         </div>
 
-        <div className="bg-primary rounded-[12px] lg:w-[570px] lg:h-[449px] p-9 lg:p-[52px]">
+        <div className="bg-primary rounded-[12px] lg:w-[570px] lg:h-[449px] p-3 lg:p-[52px]">
           <div className="grid place-items-center">
             <h2 className="text-2xl lg:text-3xl text-white">Create An Account</h2>
             <p className="text-white  text-sm lg:text-[18px] font-normal text-center">

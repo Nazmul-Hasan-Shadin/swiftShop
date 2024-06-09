@@ -4,9 +4,9 @@ import Container from "../../../Container/Container";
 const VideoSection = () => {
   return (
     <Container className={'mt-[92px]'}>
-      <div className=" flex justify-center items-center gap-[120px] bg-[#F6C447] px-11">
-        <div className="w-1/3">
-          <h2 className="text-4xl font-bold">
+      <div className=" flex  flex-col md:flex-row md:justify-center md:items-center gap-8 lg:gap-[120px] bg-[#F6C447] px-3 lg:px-11">
+        <div className="md:w-1/3">
+          <h2 className=" text-2xl lg:text-4xl font-bold">
             Learn About SwiftShop Seller Sign up
           </h2>
 
@@ -15,7 +15,7 @@ const VideoSection = () => {
           </button>
         </div>
 
-        <div className="py-[101px] w-2/3">
+        <div className="lg:py-[101px] lg:w-2/3">
           <video
             className="w-[699px] h-[375px] bg-[#D9D9D9]"
             src=""

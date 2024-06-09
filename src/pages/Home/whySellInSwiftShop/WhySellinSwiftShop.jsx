@@ -13,10 +13,10 @@ const WhySellinSwiftShop = () => {
   return (
     <Container className={"mt-[100px]"}>
       <div>
-        <h2 className="text-4xl pb-10 font-bold">
+        <h2 className=" text-2xl md:text-3xl lg:text-4xl pb-10 font-bold">
           Why Sell on <span className="text-primary"> SwiftShop</span> ?
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-20">
+        <div className="grid sm:grid-cols-1 grid-cols-1   md:grid-cols-2 lg:grid-cols-3 gap-20 ">
           {service.map((service, index) => {
             return (
               <SellOnSection

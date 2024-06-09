@@ -9,7 +9,7 @@ const NavbarIcons = () => {
     <div className="flex  gap-3 lg:gap-9  items-center justify-center text-white  lg:pl-16">
       <div>
         <img
-          className=" w-[17.86px] h-[17.45px] lg:w-6 lg:h-5"
+          className=" w-[17.86px] h-[20px] lg:w-6 lg:h-5"
           src={messageIcon}
           alt=""
         />
@@ -19,12 +19,12 @@ const NavbarIcons = () => {
         <p>wishlist</p>
       </div>
       <div>
-        <CiShoppingCart className="w-[17.86px]  lg:w-5 h-[17.45px] lg:h-5 text-white  "></CiShoppingCart>
+        <CiShoppingCart className="w-[20px]  lg:w-5 h-[20px] lg:h-5 text-white  "></CiShoppingCart>
         <p className="hidden md:block">cart</p>
       </div>
 
       <div className="block md:hidden">
-        <button className="w-14 h-7 bg-[#FFFFFF] py-2 px-4 text-black text-xs">
+        <button className="w-14 h-7 bg-[#FFFFFF] py-2 px-4 text-black text-xs font-medium rounded-lg">
           Login
         </button>
       </div>
