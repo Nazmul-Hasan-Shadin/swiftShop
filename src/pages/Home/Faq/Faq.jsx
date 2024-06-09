@@ -1,7 +1,9 @@
+import Container from "../../../Container/Container";
 
 const Faq = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+  <Container >
+           <div className="max-w-5xl mx-auto">
             <div>
                 <h1 className="text-center text-4xl font-bold my-4">Frequently Asked Questions</h1>
                 <div className="grid grid-cols-1 gap-4">
@@ -40,6 +42,7 @@ const Faq = () => {
                 </div>
             </div>
         </div>
+  </Container>
     );
 };
 

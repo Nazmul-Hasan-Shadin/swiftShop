@@ -14,9 +14,9 @@ const NavbarIcons = () => {
           alt=""
         />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block ">
         <img className="w-5 h-5" src={heartIcon} alt="" />
-        <p>wishlist</p>
+        <p className="">wishlist</p>
       </div>
       <div>
         <CiShoppingCart className="w-[20px]  lg:w-5 h-[20px] lg:h-5 text-white  "></CiShoppingCart>

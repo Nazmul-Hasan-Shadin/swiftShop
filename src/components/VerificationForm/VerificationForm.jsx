@@ -10,11 +10,11 @@ const VerificationForm = () => {
     formState: { errors },
   } = useForm();
   return (
-    <div>
-      <div className="relative ">
-        <div className="flex gap-2 pb-4 absolute top-4 lg:-top-9 ">
-          <span className="hidden md:block">Want to sell from overseas to Bangladesh?</span>
-          <span className="text-white bg-primary hidden md:block">
+  
+      <div className="relative md:bottom-9 ">
+        <div className="flex gap-2 pb-4 absolute top-4 md:-top-6 lg:-top-9 ">
+          <span className="hidden md:block md:text-[11px] ">Want to sell from overseas to Bangladesh?</span>
+          <span className="text-white md:text-[11px] lg:text-base bg-primary hidden md:block">
             Register as Global seller
           </span>
         </div>
@@ -77,7 +77,7 @@ const VerificationForm = () => {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 };
 

@@ -20,7 +20,7 @@ const Home = () => {
             <VideoSection></VideoSection>
             <SellerApp></SellerApp>
             <Faq></Faq>
-            {/* <SwiftShopAd></SwiftShopAd> */}
+            <SwiftShopAd></SwiftShopAd>
             <Footer></Footer>
         </div>
     );

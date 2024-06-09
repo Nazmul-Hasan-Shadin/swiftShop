@@ -3,7 +3,7 @@ import Container from "../../Container/Container";
 
 const SwiftShopAd = () => {
   return (
-    <div className=" bg-primary my-[100px]">
+    <div className=" bg-primary my-[100px] hidden md:block">
      <Container>
    <div className="flex justify-evenly items-center ">
    <div className="py-12">
@@ -12,7 +12,7 @@ const SwiftShopAd = () => {
         </h2>
       </div>
       <div className="py-24">
-        <button className="w-[193px] h-[48px] py-3 px-7 text-[#FFFFFF]">Get Started</button>
+        <button className="w-[193px] h-[48px] py-3 px-7 text-[#FFFFFF] border border-black">Get Started</button>
       </div>
    </div>
      </Container>

@@ -10,7 +10,7 @@ const VideoSection = () => {
             Learn About SwiftShop Seller Sign up
           </h2>
 
-          <button className="bg-[#E1F6E8] w-[200px] h-[50px] mt-7">
+          <button className="bg-[#E1F6E8] w-[200px] h-[50px] mt-7 rounded-md">
             Watch here
           </button>
         </div>

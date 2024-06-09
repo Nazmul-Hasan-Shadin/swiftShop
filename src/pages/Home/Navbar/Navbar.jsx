@@ -10,9 +10,9 @@ import NavbarIcons from "../../../components/NavbarIcons/NavbarIcons";
 
 const Navbar = () => {
   return (
-    <div className="bg-primary pb-[77px] h-32 sm:h-32 md:h-24  lg:p-5">
+    <div className="bg-primary pb-[77px] h-32 sm:h-32  md:h-24 md:p-6 lg:p-5">
       <Container className={"px-4"}>
-        <div className="flex justify-between  lg:flex-row pt-7 md:pt-0 ">
+        <div className="flex justify-between   lg:flex-row pt-7 md:pt-0 ">
            {/* ================left side of Navvbar  */}
           <div className="flex  items-center gap-2.5 lg:gap-9   lg:pr-14">
             <CiMenuFries className="text-white text-xl  lg:text-2xl  font-bold"></CiMenuFries>
