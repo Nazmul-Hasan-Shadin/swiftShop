@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Banner></Banner>
+            {/* <Banner></Banner>
             <WhySellinSwiftShop></WhySellinSwiftShop>
             
             <StartSelling></StartSelling>
@@ -21,7 +21,7 @@ const Home = () => {
             <SellerApp></SellerApp>
             <Faq></Faq>
             <SwiftShopAd></SwiftShopAd>
-            <Footer></Footer>
+            <Footer></Footer> */}
         </div>
     );
 };
