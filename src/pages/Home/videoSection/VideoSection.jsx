@@ -3,7 +3,7 @@ import Container from "../../../Container/Container";
 
 const VideoSection = () => {
   return (
-    <Container>
+    <Container className={'mt-[92px]'}>
       <div className=" flex justify-center items-center gap-[120px] bg-[#F6C447] px-11">
         <div className="w-1/3">
           <h2 className="text-4xl font-bold">

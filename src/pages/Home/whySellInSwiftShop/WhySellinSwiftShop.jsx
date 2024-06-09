@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SellOnSection from "../../../components/SellOnSection/SellOnSection";
 import Container from "../../../Container/Container";
 import serviceData from "../../../../public/whySellInSwiftShop.json";
+import Testimonial from "../../../components/Testimonial/Testimonial";
 
 const WhySellinSwiftShop = () => {
   const [service, setService] = useState([]);
@@ -28,6 +29,8 @@ const WhySellinSwiftShop = () => {
           })}
         </div>
       </div>
+
+      <Testimonial></Testimonial>
     </Container>
   );
 };
