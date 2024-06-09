@@ -9,30 +9,50 @@ import style from "./Navbar.module.css";
 import messageIcon from "../../../assets/message.png";
 import heartIcon from "../../../assets/heart.png";
 import avatarIcon from "../../../assets/avatar.png";
+import Container from "../../../Container/Container";
 
 const Navbar = () => {
   return (
-    <div className="flex bg-primary ">
-      <div className="flex gap-9 items-center">
-        <CiMenuFries></CiMenuFries>
-        <div className="">
-          <img className="w-44 h-10" src={logo} alt="" />
-        </div>
-      </div>
-      <div className="block ml-16">
-        <input
-          className={`w-[590px] h-14 relative border ${style.inputBg}`}
-          type="search"
-        />
-        <CiSearch className="absolute left-10" />
-      </div>
-      <div className="flex gap-9  items-center">
-        <img className="w-6 h-5" src={messageIcon} alt="" />
-        <img  className="w-5 h-5" src={heartIcon} alt="" />
+    <div className="bg-primary p-5">
+      <Container>
+        <div className="flex ">
+          <div className="flex gap-9 items-center pr-14">
+            <CiMenuFries className="text-white text-2xl font-bold" ></CiMenuFries>
+            <div className="">
+              <img className="w-44 h-10" src={logo} alt="" />
+            </div>
+          </div>
 
-        <CiShoppingCart  className="w-5 h-5 text-white"></CiShoppingCart>
-        <img  className="w-8 h-5 text-white" src={avatarIcon} alt="" />
-      </div>
+          {/* ==============search bar================ */}
+          <div className="relative ">
+            <input
+              className={`w-[590px] rounded-lg h-14 relative block border ${style.inputBg}`}
+              type="search"
+            />
+            <CiSearch className="absolute  top-1/3 left-10 h-5 w-5" />
+          </div>
+         
+         {/*========== icon side=============  */}
+
+          <div className="flex gap-9  items-center text-white  pl-16">
+            <div>
+              <img className="w-6 h-5" src={messageIcon} alt="" />
+            </div>
+            <div>
+              <img className="w-5 h-5" src={heartIcon} alt="" />
+              <p>wishlist</p>
+            </div>
+            <div>
+              <CiShoppingCart className="w-5 h-5 text-white"></CiShoppingCart>
+              <p>cart</p>
+            </div>
+            <div>
+              <img className="w-8 h-5 text-white" src={avatarIcon} alt="" />
+              <p>profile</p>
+            </div>
+          </div>
+        </div>
+      </Container>
     </div>
   );
 };

@@ -1,0 +1,28 @@
+[
+    {
+      "heading": "Sign Up For Free",
+      "text": "Create your account through our website or mobile app with just your phone number.",
+      "logo": "/logo/signUp.png"
+    },
+    {
+      "heading": "Profile Information",
+      "text": "Complete your profile by providing your email and name. So that we can identify you.",
+      "logo": "/logo/profile.png"
+    },
+    {
+      "heading": "Address Information",
+      "text": "Provide all address details of your business.",
+      "logo": "/logo/address.png"
+    },
+    {
+      "heading": "ID & Bank Information",
+      "text": "Add your ID & Business related details. Include necessary bank information for payments.",
+      "logo": "/logo/bank.png"
+    },
+    {
+      "heading": "List Products",
+      "text": "Add products to your store through seller center. Start selling as soon as your products go live after going through quality control.",
+      "logo": "/logo/product.png"
+    }
+  ]
+  
