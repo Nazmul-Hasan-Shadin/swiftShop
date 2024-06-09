@@ -12,17 +12,17 @@ const VerificationForm = () => {
   return (
     <div>
       <div className="relative ">
-        <div className="flex gap-2 pb-4 absolute -top-9">
-          <span>Want to sell from overseas to Bangladesh?</span>
-          <span className="text-white bg-primary">
+        <div className="flex gap-2 pb-4 absolute top-4 lg:-top-9 ">
+          <span className="hidden md:block">Want to sell from overseas to Bangladesh?</span>
+          <span className="text-white bg-primary hidden md:block">
             Register as Global seller
           </span>
         </div>
 
-        <div className="bg-primary rounded-[12px] w-[570px] h-[449px]  p-[52px]">
+        <div className="bg-primary rounded-[12px] lg:w-[570px] lg:h-[449px] p-9 lg:p-[52px]">
           <div className="grid place-items-center">
-            <h2 className="text-3xl text-white">Create An Account</h2>
-            <p className="text-white text-[18px] font-normal text-center">
+            <h2 className="text-2xl lg:text-3xl text-white">Create An Account</h2>
+            <p className="text-white  text-sm lg:text-[18px] font-normal text-center">
               Welcome! Millions of SwiftShop users are waiting to buy your
               product.
             </p>

@@ -12,11 +12,11 @@ import SwiftShopAd from '../../../components/SwiftShopAd/SwiftShopAd';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            {/* <Banner></Banner>
+            {/* <Navbar></Navbar>
+            <Banner></Banner> */}
             <WhySellinSwiftShop></WhySellinSwiftShop>
             
-            <StartSelling></StartSelling>
+            {/* <StartSelling></StartSelling>
             <VideoSection></VideoSection>
             <SellerApp></SellerApp>
             <Faq></Faq>

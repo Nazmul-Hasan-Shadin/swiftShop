@@ -10,12 +10,12 @@ const Banner = () => {
 
   return (
     <div className="bg-[#E1F6E8] py-14   ">
-      <Container>
-        <div className="grid grid-cols-2 place-items-center ">
+      <Container className={'px-3'}>
+        <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center sm:gap-y-4 ">
           {/* =========left side started */}
           <div className="">
             <div className="">
-              <h2 className="text-6xl font-bold h-[147px] ">
+              <h2 className=" text-3xl lg:text-6xl font-bold lg:h-[147px] ">
                 Bangladesh’s #1 <br /> Marketplace
               </h2>
               <span className="text-[#3a3a3a] block mt-4 text-xl">
